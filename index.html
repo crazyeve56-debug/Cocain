@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>데이터 사이언티스트 포트폴리오 | 이름</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">홍길동</h1>
+      <button id="nav-toggle" class="nav-toggle" aria-label="메뉴 열기">☰</button>
+      <nav id="main-nav" class="main-nav">
+        <a href="#about">소개</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#resume">이력서</a>
+        <a href="#contact">연락</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <h2>데이터로 이야기합니다</h2>
+            <p>데이터 분석, 머신러닝 모델 개발, 데이터 시각화를 통해 인사이트를 도출합니다. Kaggle, 개인 프로젝트, 오픈소스 기여를 통해 경험을 쌓았습니다.</p>
+            <p><a class="btn" href="#projects">프로젝트 보기</a> <a class="btn ghost" href="#contact">연락하기</a></p>
+          </div>
+          <div class="profile-card">
+            <svg width="120" height="120" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="8" r="4" fill="#E6EEF8"/>
+              <path d="M4 20c0-4 4-6 8-6s8 2 8 6v0H4z" fill="#E6EEF8"/>
+            </svg>
+            <p class="muted">데이터 사이언티스트</p>
+            <p class="muted">이메일: <a href="mailto:you@example.com">you@example.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h3>소개</h3>
+      <p>안녕하세요. 저는 데이터 기반 의사결정과 예측 모델링을 좋아하는 데이터 사이언티스트입니다. 통계적 분석, 머신러닝, 딥러닝, 대용량 데이터 처리 경험을 보유하고 있으며, 결과를 이해하기 쉽게 시각화하는 것을 중요하게 생각합니다.</p>
+    </section>
+
+    <section id="projects" class="container section">
+      <h3>프로젝트</h3>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-thumb">📊</div>
+          <h4>고객 이탈 예측 모델</h4>
+          <p>머신러닝(랜덤포레스트, XGBoost)을 이용한 고객 이탈 예측과 주요 변수 해석. 모델 성능: AUC 0.87.</p>
+          <p class="project-links"><a href="#">코드</a> · <a href="#">블로그</a></p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">🧾</div>
+          <h4>판매량 시계열 예측</h4>
+          <p>Prophet과 LSTM을 이용한 월별 판매량 예측, 계절성 및 프로모션 효과 분석.</p>
+          <p class="project-links"><a href="#">코드</a> · <a href="#">결과</a></p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">🌐</div>
+          <h4>웹 기반 대시보드</h4>
+          <p>Streamlit으로 구현한 대시보드: 데이터 탐색, 필터, 인터랙티브 시각화 포함.</p>
+          <p class="project-links"><a href="#">데모</a> · <a href="#">코드</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="resume" class="container section">
+      <h3>이력서</h3>
+      <p>간단한 이력은 여기에 요약되어 있습니다. 전체 이력서는 <a href="resume.pdf" target="_blank">PDF 다운로드</a>를 이용하세요.</p>
+    </section>
+
+    <section id="contact" class="container section">
+      <h3>연락</h3>
+      <p>협업이나 기회에 대해 얘기하고 싶으시면 이메일로 연락 주세요: <a href="mailto:you@example.com">you@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 홍길동 — 데이터 사이언스 포트폴리오</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
